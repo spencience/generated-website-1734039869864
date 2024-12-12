@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the Digital Archives team for inquiries about digital preservation techniques and collaborations">
+    <meta name="keywords" content="digital archives, contact, preservation, digital techniques, collaboration">
+    <title>Contact Us - Digital Archives</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        .gradient-bg {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        .contact-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #23a6d5, #23d5ab);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="gradient-bg text-white shadow-lg">
+        <nav class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734039869864/" class="text-2xl font-bold hover:text-gray-200">Digital Archives</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/generated-website-1734039869864/techniques.html" class="hover:text-gray-200">Techniques</a>
+                    <a href="/generated-website-1734039869864/gallery.html" class="hover:text-gray-200">Gallery</a>
+                    <a href="/generated-website-1734039869864/resources.html" class="hover:text-gray-200">Resources</a>
+                    <a href="/generated-website-1734039869864/about.html" class="hover:text-gray-200">About</a>
+                </div>
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h1 class="text-3xl font-bold mb-6">Contact Us</h1>
+            <div class="prose max-w-none">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
+                        <p class="mb-6">We'd love to hear from you. Whether you have questions about digital preservation techniques, want to contribute to our archives, or are interested in collaboration opportunities, please reach out.</p>
+                        
+                        <form method="GET" action="/generated-website-1734039869864/submit-contact" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                                <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" required>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                                <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" required>
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                                <select id="subject" name="subject" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="contribution">Contribution</option>
+                                    <option value="collaboration">Collaboration</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                                <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500" required></textarea>
+                            </div>
+                            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h2 class="text-2xl font-semibold mb-6">Other Ways to Connect</h2>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="contact-icon">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-medium">Email Support</h3>
+                                    <p class="text-gray-600">support@digitalarchives.org</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="contact-icon">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-medium">Community Forum</h3>
+                                    <p class="text-gray-600">Join our <a href="/generated-website-1734039869864/forum.html" class="text-blue-600 hover:text-blue-800">discussion forum</a></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="contact-icon">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-medium">Office Hours</h3>
+                                    <p class="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM EST</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">About Us</h3>
+                    <p class="text-gray-300">Preserving digital techniques and innovations for future generations.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734039869864/contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                        <li><a href="/generated-website-1734039869864/privacy.html" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="/generated-website-1734039869864/terms.html" class="text-gray-300 hover:text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734039869864/social/twitter.html" class="text-gray-300 hover:text-white">Twitter</a>
+                        <a href="/generated-website-1734039869864/social/github.html" class="text-gray-300 hover:text-white">GitHub</a>
+                        <a href="/generated-website-1734039869864/social/linkedin.html" class="text-gray-300 hover:text-white">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
+                <p>&copy; 2024 Digital Archives. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
